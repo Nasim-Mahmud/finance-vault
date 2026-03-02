@@ -9,16 +9,6 @@ Fully client-side, AES-256-GCM encrypted money manager for GitHub Pages.
 - Even on a public repo, your data is unreadable without your password
 - No server, no database, no third-party services
 
-## Quick Setup
-
-1. **Create a GitHub repo** (can be public — data is encrypted)
-2. **Copy `index.html`** to the root and push
-3. **Enable GitHub Pages**: Settings → Pages → Deploy from main branch
-4. **Create a PAT**: Settings → Developer Settings → Fine-grained tokens → Contents: Read & Write
-5. **First visit**: Open your Pages URL, expand "GitHub Setup", enter token + repo
-6. **Set a master password** and click Unlock
-7. **Click "↑ Push"** to save your encrypted vault to GitHub
-
 ## Features
 
 - Dashboard with account balances (DBBL, BRAC, bKash, Nagad, Rocket, Cash)
